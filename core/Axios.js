@@ -1,4 +1,4 @@
-function Axios () {
+export function Axios () {
     this.interceptor = {
         request: "request handler",
         response: "response handler"
