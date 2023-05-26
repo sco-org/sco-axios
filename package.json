@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sco-org/sco-axios/issues"
   },
-  "homepage": "https://github.com/sco-org/sco-axios#readme"
+  "homepage": "https://github.com/sco-org/sco-axios#readme",
+  "dependencies": {
+    "rollup": "^3.23.0"
+  }
 }
