@@ -1,3 +1,5 @@
+import dispatchRequest from './dispatchRequest.js';
+
 export function Axios () {
     this.interceptor = {
         request: "request handler",
@@ -6,7 +8,7 @@ export function Axios () {
 }
 
 Axios.prototype.request = function (config) {
-    let chain = [dispathRequest, undefined]
+    let chain = [dispatchRequest, undefined]
 
     const promise = new Promise(function (resolve, reject) {
         resolve(config)

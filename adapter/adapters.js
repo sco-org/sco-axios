@@ -6,7 +6,7 @@ const knownAdapters = {
     xhr: xhrAdapter
 }
 
-export default{
+export default {
     getAdapter: function getAdapter(adapters) {
 
         let adapter

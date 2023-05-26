@@ -1,6 +1,8 @@
+import adapters from '../adapter/adapters.js';
+
 export function dispatchRequest(config) {
 
-    const adapter = ""
+    const adapter = adapters.getAdapter(["xhr", "http"])
 
     return adapter(config).then(function onAdapterResolution(response) {
 
