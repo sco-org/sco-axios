@@ -1,7 +1,9 @@
+import xhrAdapter from './xhr.js';
+import httpAdapter from './http.js';
 
 const knownAdapters = {
-    http: "",
-    xhr: ""
+    http: httpAdapter,
+    xhr: xhrAdapter
 }
 
 export default{
